@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<widget xmlns  	   = "http://www.w3.org/ns/widgets"
+			xmlns:gap  = "http://phonegap.com/ns/1.0"
+			id		   = "TSA.App"
+			versionCode = "10"
+			version 	= "1.0.0" >
+
+	<name>TSA App</name>
+
+	<description>
+		Simple left/right randomizer
+	</description>
+
+	<preference name="permissions" value="none" />
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+
+	<icon src="icon.png" />
+
+</widget>

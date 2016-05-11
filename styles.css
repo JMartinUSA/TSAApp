@@ -1,0 +1,53 @@
+#container{
+	background: black;
+	bottom:0px;
+	left:0px;
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+#clickMe{
+	height:100%;
+	width:100%;
+}
+#tapMe{
+	color:lightblue;
+	font-size: 10vh;
+	height:12vh;
+	position:absolute;
+	text-align:center;
+	top:35vh;
+	width:100vw;
+}
+.square{
+	background:lightblue;
+	height:30vw;
+	position:absolute;
+	top:35vw;
+	width: 40vw;
+}
+#squareLeft{
+	left:40vw;
+}
+#squareRight{
+	right:40vw;
+}
+.triangle{
+	border-top:30vw solid transparent;
+	border-bottom:30vw solid transparent;
+	height:0px;
+	position: absolute;
+	top:20vw;
+	width:0px;
+}
+#triangleLeft{
+	border-right:30vw solid lightblue;
+	left:20vw;
+}
+#triangleRight{
+	border-left:30vw solid lightblue;
+	right:20vw;
+}
+#arrowLeft, #arrowRight{
+	display:none;
+}
